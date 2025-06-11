@@ -7,6 +7,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
         enunciado: "Quando você se depara com o crecimento do dematamento!", 
+        
         alternativas:[
             "Isso é assustador", 
             "Isso é normal!"
@@ -17,7 +18,7 @@ const perguntas = [
         alternativas:[
             "Alternativa 1",
             "Alternativa 2"
-        ]
+        ],
     };
 ];
   
