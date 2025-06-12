@@ -24,9 +24,15 @@ const perguntas = [
         enunciado:
          "Pergunta 1", 
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
-        ],
+            {
+                texto:"Isso é assustador",
+                afirmacao:"afirmaçao"
+            }, 
+            {
+             texto:"Isso é normal!",
+             afirmacao: "afirmacao"
+            }
+        ]
     },
 ];
   
