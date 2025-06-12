@@ -38,7 +38,7 @@ function mostraPergunta(){
     caixaPerguntas.textContent = perguntaAtual.enunciado;
 
 
-}
+
 
 function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativas){
@@ -50,5 +50,6 @@ function mostraAlternativas(){
        })
         caixaAlternativas.appendChild(botaoAlternativas);
     }
+}
 }
 mostraPergunta();
