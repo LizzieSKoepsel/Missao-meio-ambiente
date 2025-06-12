@@ -9,7 +9,16 @@ const perguntas = [
         enunciado:
          "Quando você se depara com o crecimento do desmatamento!", 
         
-        alternativas: ["Isso é assustador", "Isso é normal!"]
+        alternativas: [
+            {
+                texto:"Isso é assustador",
+                afirmacao:"afirmaçao"
+            }, 
+            {
+             texto:"Isso é normal!",
+             afirmacao: "afirmacao"
+            }
+        ]
     },
     {
         enunciado:
@@ -31,4 +40,11 @@ function mostraPergunta(){
 
 }
 
+function mostraAlternativa(){
+    for(const alternativa of perguntaAtual.alternativa){
+        const botaoAlternativa = document.createElement("button");
+        botaoAlternativa.textContent = alternativa.texto;
+        caixaAlternativa.appendChild(botaoAlternativa);
+    }
+}
 mostraPergunta();
