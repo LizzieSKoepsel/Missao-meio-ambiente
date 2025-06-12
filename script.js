@@ -6,20 +6,19 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Quando você se depara com o crecimento do dematamento!", 
+        enunciado:
+         "Quando você se depara com o crecimento do desmatamento!", 
         
-        alternativas:[
-            "Isso é assustador", 
-            "Isso é normal!"
-        ]
+        alternativas: ["Isso é assustador", "Isso é normal!"]
     },
     {
-        enunciado: "Pergunta 1", 
-        alternativas:[
+        enunciado:
+         "Pergunta 1", 
+        alternativas: [
             "Alternativa 1",
             "Alternativa 2"
         ],
-    };
+    },
 ];
   
 let atual = 0;
@@ -32,4 +31,4 @@ function mostraPergunta(){
 
 }
 
-mostraPergunta()
+mostraPergunta();
