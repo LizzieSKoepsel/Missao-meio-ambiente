@@ -1,4 +1,15 @@
+root{
+    
+    --cor-principal: #;
+    --cor-secundaria: # ;
+    --cor-destaque: #;
+    
+}
 body{
+   
     background-color: rgba(10, 97, 2, 0.89);
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
