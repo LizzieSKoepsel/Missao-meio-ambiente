@@ -41,14 +41,14 @@ function mostraPergunta(){
 }
 
 function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativa){
-        const botaoAlternativa = document.createElement("button");
-        botaoAlternativa.textContent = alternativa.texto;
-       botaoAlternativa.addEventListener("click", function(){
+    for(const alternativa of perguntaAtual.alternativas){
+        const botaoAlternativas = document.createElement("button");
+        botaoAlternativas.textContent = alternativa.texto;
+       botaoAlternativas.addEventListener("click", function(){
         atual++;
         mostraPergunta();
        })
-        caixaAlternativa.appendChild(botaoAlternativa);
+        caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
 mostraPergunta();
