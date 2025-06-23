@@ -1,4 +1,3 @@
-
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativa = document.querySelector(".caixa-alternativas");
@@ -7,14 +6,17 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado:
-            "Quando você se depara com o crecimento do desmatamento!",
+        enunciado: "Quando você se depara com o crecimento do desmatamento!",
 
         alternativas: [
             {
                 texto: "Isso é assustador",
                 afirmacao: "afirmaçao"
             },
+            {
+                texto: "Isso é maravilhoso",
+                afirmacao: "afirmaçao"
+            }
 
         ]
     },
@@ -26,6 +28,10 @@ const perguntas = [
                 texto: "Isso é assustador",
                 afirmacao: "afirmaçao"
             },
+            {
+                texto: "Isso é maravilhoso",
+                afirmacao: "afirmaçao"
+            }
 
         ]
     },
@@ -37,9 +43,9 @@ let perguntaAtual;
 
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;   
-    }
-    
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+
 
 
 function mostraAlternativas() {
