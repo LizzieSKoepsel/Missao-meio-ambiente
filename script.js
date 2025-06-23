@@ -33,14 +33,13 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+
 
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    mostraAlternativas();
-
-}
+    caixaPerguntas.textContent = perguntaAtual.enunciado;   
+    }
+    
 
 
 function mostraAlternativas() {
