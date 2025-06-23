@@ -41,7 +41,7 @@ let atual = 0;
 let perguntaAtual;
 
 
-function mostraPergunta() {
+function mostraPerguntas() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
