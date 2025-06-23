@@ -8,35 +8,29 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
         enunciado:
-         "Quando você se depara com o crecimento do desmatamento!", 
-        
+            "Quando você se depara com o crecimento do desmatamento!",
+
         alternativas: [
             {
-                texto:"Isso é assustador",
-                afirmacao:"afirmaçao"
-            }, 
-            {
-             texto:"Isso é normal!",
-             afirmacao: "afirmacao."
-            }
+                texto: "Isso é assustador",
+                afirmacao: "afirmaçao"
+            },
+
         ]
     },
     {
         enunciado:
-         "Pergunta 1", 
+            "Pergunta 1",
         alternativas: [
             {
-                texto:"Isso é assustador",
-                afirmacao:"afirmaçao"
-            }, 
-            {
-             texto:"Isso é normal!",
-             afirmacao: "afirmacao"
-            }
+                texto: "Isso é assustador",
+                afirmacao: "afirmaçao"
+            },
+
         ]
     },
 ];
-  
+
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
@@ -50,18 +44,18 @@ function mostraPergunta() {
 
 
 function mostraAlternativas() {
-    for(const alternativa of perguntaAtual.alternativas) {
+    for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativa = document.createElement("button");
         botaoAlternativa.textContent = alternativa.texto;
-        botaoAlternativa.addEventListener("click",function() {
+        botaoAlternativa.addEventListener("click", function () {
             atual++;
             mostraPergunta();
         })
         caixaAlternativas.appendChild(botaoAlternativas);
-         
+
     }
-        
-    }
+
+}
 
 
 mostraPergunta();
