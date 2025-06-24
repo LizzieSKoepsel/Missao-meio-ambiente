@@ -11,7 +11,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador",
-                afirmacao: "afirmaçao"
+                afirmacao: "afirmaçao."
             },
             {
                 texto: "Isso é maravilhoso",
@@ -21,8 +21,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado:
-            "Pergunta 1",
+        enunciado: "Pergunta 1",
         alternativas: [
             {
                 texto: "Isso é assustador",

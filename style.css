@@ -1,14 +1,16 @@
 :root{
-    
-    --cor-principal: #;
-    --cor-secundaria: #;
-    --cor-destaque: #;
+    --cor-fundo: #1b6306;
+    --cor-principal: #d446c1;
+    --cor-secundaria: #0ee0c4;
+    --cor-destaque: #bcbe18;
+    --cor-texto: #0d2a30;
+
     
 }
 body{
    
-    
-    color: black;
+    background-color: var(cor-fundo);
+    color: var(--cor-texto);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,8 +29,8 @@ h1{
     color: var(--cor-destaque);
 }
 button{
-    background-color: rgb(206, 226, 231);
-    color:black
+    background-color: var(--cor-secundaria);
+    color:var(--cor-texto);
     border: none;
     border-radius: 15px;
     padding: 15px;
@@ -36,6 +38,6 @@ button{
 
 }
 button:hover{
-    background-color: aqua;
-    color: black;
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
 }
