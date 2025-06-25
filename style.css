@@ -17,7 +17,7 @@ body{
     min-height: 100vh;
 }
 .caixa-perguntas{
-    background: var(--cor-destaque);
+    background: var(--cor-fundo);
     align-items: center;
 }
 .caixa-principal{
