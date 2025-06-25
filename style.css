@@ -18,6 +18,7 @@ body{
 }
 .caixa-perguntas{
     background: var(--cor-destaque);
+    align-items: center;
 }
 .caixa-principal{
     background-color: var(--cor-principal);
