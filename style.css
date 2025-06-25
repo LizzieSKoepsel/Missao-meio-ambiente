@@ -16,6 +16,10 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+.caixa-alternativas{
+    background: darksalmon;
+    color:#081372;
+}
 .caixa-perguntas{
     background: var(--cor-fundo);
     align-items: center;
