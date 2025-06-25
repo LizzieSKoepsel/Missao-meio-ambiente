@@ -19,6 +19,7 @@ body{
 .caixa-perguntas{
     background: var(--cor-fundo);
     align-items: center;
+    color:white;
 }
 .caixa-principal{
     background-color: var(--cor-principal);
